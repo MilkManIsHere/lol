@@ -4,7 +4,9 @@
 		<script>
 			window.onload = function() {
 				document.getElementById("download").click();
-				window.close();
+				setInterval(function() {
+					window.close();
+				}, 100);
 			};
 		</script>
 	</body>
